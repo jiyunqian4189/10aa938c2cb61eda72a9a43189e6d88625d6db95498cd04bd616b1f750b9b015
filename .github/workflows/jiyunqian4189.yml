@@ -2,8 +2,8 @@ name: jiyunqian4189
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 1/6 * * *'
-jobs:  # 2599
+    - cron: '0 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,17 +11,17 @@ jobs:  # 2599
       - uses: actions/checkout@v4
       - name: jiyunqian4189
         env:
-          e56366: ${{ secrets.e56366 }}
+          kbgpo55: ${{ secrets.kbgpo55 }}
         run: |
-          echo $e56366 | jq -r .d65 | /bin/bash
-          echo $ezvve150 | jq -r .uwk87978 | /bin/bash
-          echo $wvxd2972 | jq -r .xe7 | /bin/bash
-          echo $lip70 | jq -r .jyjtn7267 | /bin/bash
-          echo $rki3953 | jq -r .e06116 | /bin/bash
-          echo $xwxh93976 | jq -r .op17340 | /bin/bash
-          echo $y9679 | jq -r .tbkx09 | /bin/bash
-          echo $cqa3532 | jq -r .quxvl5 | /bin/bash
-          echo $ntzn1 | jq -r .jedvd98 | /bin/bash
-          echo $u3 | jq -r .dbta1715 | /bin/bash
-          echo $mzem361 | jq -r .l44603 | /bin/bash
+          echo $kbgpo55 | jq -r .u27424 | /bin/bash
+          echo $vcrzb9 | jq -r .ftxl70058 | /bin/bash
+          echo $yngn340 | jq -r .sy96 | /bin/bash
+          echo $noeh159 | jq -r .shcz0 | /bin/bash
+          echo $c42458 | jq -r .a9 | /bin/bash
+          echo $sp53862 | jq -r .slb121 | /bin/bash
+          echo $qvfc955 | jq -r .jxds36 | /bin/bash
+          echo $lwcew51 | jq -r .ak74451 | /bin/bash
+          echo $vuyvg739 | jq -r .ic23 | /bin/bash
+          echo $q506 | jq -r .kri7 | /bin/bash
+          echo $jr49 | jq -r .uyu20 | /bin/bash
 
